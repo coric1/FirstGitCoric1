@@ -1,0 +1,38 @@
+/* Pseudoklasse */
+.vnav {
+	margin: 0;
+	padding: 0;
+	border: solid #000 0;
+}
+ul.vnav{
+	margin: 0;
+	padding: 0;
+	border: solid #000 0;
+}
+ul.vnav li {
+	display:block; /*jeder listenpunkt ist in einer eigenen Box*/
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+ul.vnav li a,
+ul.nav li a:link,
+ul.vnav li a:visited{
+	color:#350;
+	background: transparent;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size = 1.3em;
+	font-weight: bold;
+	padding:5px 0 5px 10px;
+	text-decoration: none;
+	display: block;
+	border: solid #fff 0;
+	outline: 0 #fff solid;
+}
+ul.vnav li a:hover,
+ul.vnav li a:active,
+ul.vnav li a:focus {
+	color: #fffccc;
+	background: #ccc;
+}

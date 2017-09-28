@@ -1,0 +1,31 @@
+/* TAGS */
+h1 {
+	font-size: 130%;
+	padding-top: 0.6em;
+	}
+h2{
+	font-size: 110%;
+	padding-top: 0.4em;
+	}
+h3{
+	font-size: 100%;
+	padding-top: 0.4em;
+	}
+p{
+	padding-top: 0.3em;
+	}
+	
+
+
+/* Klassen */
+
+.ftext {
+	font-size: 0.7em;
+	font-weight: bold;
+	letter-spacing: 10px;
+	padding-top: 3px;
+}
+.flies {
+	font-size: 0.8em;
+	
+}

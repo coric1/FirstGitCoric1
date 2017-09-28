@@ -1,0 +1,60 @@
+/* Tags*/
+* {
+	margin: 0;
+	padding: 0;
+	border: solid #000 0;
+}
+body {
+	color: #000;
+	background: #ccc url(../02imglayout/bg01.jpg) top left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100.1%;
+	font-weight: normal;
+	text-align: center;
+}
+/*Klassen*/
+
+/*DIVs*/
+#wrap {
+	color: #000;
+	background: #fff;
+	width: 800px;
+	/*height: 600px;*/
+	margin: 10px auto;
+}
+#top {
+	color: #000;
+	background: #fff url(../02imglayout/landschaft.jpg) top left no-repeat;
+	width: 100%;
+	height: 200px;
+}
+#nav {
+	color: #000;
+	background: #8ff43e;
+	width: 200px;
+	min-height: 250px;
+	text-align: left;
+	float: left;
+}
+#content {
+	color: #000;
+	background: transparent;
+	margin-left: 200px;
+	min-height: 200px;
+	text-align: left;
+	padding: 0;
+}
+#footer {
+	color: #000;
+	background: #ccc;
+	width: 100%;
+	height: 20px;
+	clear: both; /*ausschalten floaten*/
+}
+#rahmen {
+ 
+ 
+	color: #000;
+	background: transparent;
+	padding: 10px;
+}
